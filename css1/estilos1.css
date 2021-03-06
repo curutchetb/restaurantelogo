@@ -1,0 +1,83 @@
+*{
+    padding: 5px;
+    margin:0px auto;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 14px;
+    background-color:#19070B;
+    color: #df3a01;
+}
+header, nav, footer,section{
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+article{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+
+}
+.tarjeta{
+    display: inline-block;
+    border: #fa8258 10px solid;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 20%; 
+    float: left;
+    text-align: center;
+}
+.tarjeta img{
+    width: 50%;
+    height: 50%;
+    border: #a5df00 10px solid;
+}
+.tarjeta h2{
+    font-size: 2em;
+}
+.tarjeta p{
+    font-size: 1em;
+}
+
+.tarjeta:hover{
+    border: #01df01 15px solid;
+    margin: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+.contenido{
+    display: inline-block;
+    border: #fa8258 10px solid;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 90%; 
+    float: left;
+    text-align: center;
+}
+
+.contenido img{
+    width: 50%;
+    height: 50%;
+    border: #a5df00 10px solid;
+}
+.contenido h2{
+    font-size: 4em;
+}
+.contenido p{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 2em;
+}
+footer{
+    border-top: 50px;
+    float: left;
+    font-size: 0.5em;
+    clear: both;
+    display: block;
+}
